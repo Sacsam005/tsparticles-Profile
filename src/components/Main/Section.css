@@ -1,0 +1,129 @@
+h6.text-center {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px white;
+}
+
+ul.item-links {
+  border-left: 1px solid black;
+  padding: 0;
+  list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='-1 -1 2 2'><circle r='1' /></svg>");
+}
+
+li.item {
+  margin-left: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-links li {
+  box-shadow: 1px 2px 3px black;
+}
+
+.years {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 1.5rem;
+}
+.content {
+  color: orange;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: left;
+}
+
+.section-2 img {
+  width: 20%;
+}
+
+.logo-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo-section img {
+  margin: 0.5rem;
+}
+
+@media (max-width: 680px) {
+  .main-section {
+    margin-top: -1.5rem;
+  }
+  .section {
+    width: 100%;
+    height: auto;
+    margin: -1.3rem auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.3rem;
+    align-items: center;
+  }
+
+  .section-1 {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  li.item {
+    margin-left: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .years {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .header {
+    font-size: 1.3rem;
+  }
+
+  .content {
+    color: orange;
+    font-size: 0.8rem;
+  }
+
+  .logo-section {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .logo-section img {
+    margin: 0 auto;
+  }
+
+  .section-4 {
+    margin-top: -1.3rem;
+  }
+
+  .logo-section {
+    margin-top: -4rem;
+  }
+}

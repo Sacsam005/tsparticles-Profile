@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Quantico&family=Titillium+Web:wght@200&display=swap');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Particles Styling */
+canvas.tsparticles-canvas-el {
+  position: absolute;
+  top: 15%;
+  height: 500px;
+  width: 100%;
+  /* z-index: -1; */
+  box-shadow: inset 20px 100px 150px #000000;
+}
+
+@media (max-width: 680px) {
+  canvas.tsparticles-canvas-el {
+    z-index: 1;
+    box-shadow: none;
+  }
+}
