@@ -1,9 +1,10 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
 import Particles from 'react-tsparticles';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+// import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import Home from './components/Home'
+// import About from './components/About'
+// import Experience from './components/Experience'
+
 
 function App() {
 
@@ -30,21 +31,6 @@ function App() {
               },
               resize: true,
             },
-            // modes: {
-            //   bubble: {
-            //     distance: 400,
-            //     duration: 2,
-            //     opacity: 0.8,
-            //     size: 40,
-            //   },
-            //   push: {
-            //     quantity: 4,
-            //   },
-            //   repulse: {
-            //     distance: 200,
-            //     duration: 1,
-            //   },
-            // },
           },
           particles: {
             color: {
@@ -89,12 +75,9 @@ function App() {
           detectRetina: true,
         }}
       />
-
-      <Navbar />
-      <Header />
-      <Main />
-      <Footer />
+      <Home />
     </>
+
   );
 }
 
