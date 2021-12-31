@@ -4,10 +4,8 @@ import './Header.css'
 export default function Header() {
     return (
         <>
-            <div className="header-wrapper">
-                {/* <img src={require("../img/background.jpg")} alt="" /> */}
+            <div className="header-wrapper" id="home">
                 <div className="main-info">
-                    
                     <Typed
                         className="typed-text"
                         strings={["Regulatory Program Supervisor at HyLife", "Teaching Assistant at MSU", "Quality Assurance Laboratory Technician"]}
