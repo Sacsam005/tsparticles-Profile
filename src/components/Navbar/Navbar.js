@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import logo from '../img/logo.png'
 import './Navbar.css'
 
+
 export default function Navbar() {
     const [click, setClick] = useState(true)
 
@@ -22,13 +23,13 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent" >
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0" >
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Home</a>
+                                <a className="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">About Me</a>
+                                <a className="nav-link" href="#about">About Me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Experience</a>
+                                <a className="nav-link" href="#experience">Experience</a>
                             </li>
                         </ul>
                     </div>

@@ -11,6 +11,7 @@ nav {
 .logo:hover {
   border-bottom: 1px solid green;
   border-right: 1px solid green;
+  cursor: pointer;
 }
 
 .nav-item {
@@ -25,6 +26,7 @@ a.nav-link {
 
 a.nav-link:hover {
   border-bottom: 1px solid green;
+  cursor: pointer;
 }
 
 .navbar-toggler:focus {
