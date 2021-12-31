@@ -1,14 +1,16 @@
 import React from 'react'
 import './Main.css'
-import Section from './Section'
+// import { HashLink as Link } from "react-router-hash-link";
+
+
 
 export default function Main() {
     return (
         <>
             <div className="container">
-                <h1 className='text-center'>Environmental toxicology graduate with a demonstrated history of working in the higher education research field.</h1>
+                <h1 className='text-center' id="about">Environmental toxicology graduate with a demonstrated history of working in the higher education research field.</h1>
                 <div className="card-section">
-                    <h2><span>About Me</span></h2>
+                    <h2 ><span>About Me</span></h2>
 
                     <div className="row">
                         <div className="col-md-4">
@@ -57,7 +59,6 @@ export default function Main() {
                     </div>
                 </div>
             </div>
-            <Section />
         </>
     )
 }

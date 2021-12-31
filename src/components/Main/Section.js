@@ -1,33 +1,35 @@
 import React from 'react'
+// import { HashLink } from 'react-router-hash-link';
 import './Section.css'
 
 export default function Section() {
     return (
-        <>
-            <div className="main-section">
-                <h2><span>Experiences</span></h2>
-                <h6 className="text-center">Skilled in Environmental regulations, assessment and laboratory techniques.</h6>
+        < >
+            <div className="main-section" >
+                <h6 className="text-center" id="experience">
+                    Skilled in Environmental regulations, assessment and laboratory techniques.
+                </h6>
+
+                <h2 ><span>Experiences</span></h2>
+
 
                 <div className="section">
                     <div className="section-1">
                         <ul className="item-links" >
-
                             <li className="item">
-                                <div className="years">Aug 2017-May2020</div>
-                                <div className="header">Graduate teaching Assistant</div>
-                                <div className="content">Minnesota State University</div>
+                                <div className="years">Aug 2020-Present</div>
+                                <div className="header">Regulatory Program Supervisor</div>
+                                <div className="content">HyLife</div>
                             </li>
-
-
                             <li className="item">
                                 <div className="years">May 2020-Aug 2020</div>
                                 <div className="header">Quality Assurance Lab Technician</div>
                                 <div className="content">Comfrey Farm Prime Pork LLC</div>
                             </li>
                             <li className="item">
-                                <div className="years">Aug 2020-Present</div>
-                                <div className="header">Regulatory Program Supervisor</div>
-                                <div className="content">HyLife</div>
+                                <div className="years">Aug 2017-May2020</div>
+                                <div className="header">Graduate teaching Assistant</div>
+                                <div className="content">Minnesota State University</div>
                             </li>
                         </ul>
                     </div>
