@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import logo from '../img/logo.png'
 import './Navbar.css'
 
-
 export default function Navbar() {
     const [click, setClick] = useState(true)
 

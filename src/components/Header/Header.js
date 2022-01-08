@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade'
 export default function Header() {
     return (
         <>
-            <Fade top duration={2000}>
-                <div className="header-wrapper" id="home">
-                    <div className="main-info">
+            <div className="header-wrapper" id="home">
+                <div className="main-info">
+                    <Fade top duration={2000}>
                         <Typed
                             className="typed-text"
                             strings={["Regulatory Program Supervisor at HyLife", "Teaching Assistant at MSU", "Quality Assurance Laboratory Technician"]}
@@ -17,9 +17,10 @@ export default function Header() {
                             backSpeed={30}
                             loop
                         />
-                    </div>
+                    </Fade>
+
                 </div>
-            </Fade>
+            </div>
         </>
     )
 }
