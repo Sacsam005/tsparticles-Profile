@@ -1,0 +1,36 @@
+nav {
+  z-index: 2;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logo:hover {
+  border-bottom: 1px solid green;
+  border-right: 1px solid green;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin: 1rem;
+}
+
+a.nav-link {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: black;
+}
+
+a.nav-link:hover {
+  border-bottom: 1px solid green;
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
