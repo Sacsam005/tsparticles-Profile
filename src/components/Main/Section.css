@@ -1,3 +1,20 @@
+.section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-2 img {
+  width: 20%;
+}
+
 h6.text-center {
   font-size: 2rem;
   text-shadow: 2px 2px 2px white;
@@ -38,19 +55,8 @@ li.item {
   text-shadow: 1px 1px 1px white;
 }
 
-.section {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  align-items: left;
-}
-
-.section-2 img {
-  width: 20%;
+ul.item-links {
+  text-align: left;
 }
 
 .logo-section {
