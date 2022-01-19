@@ -1,13 +1,12 @@
 import React from 'react'
 import './Footer.css'
-// import Fade from 'react-reveal/Fade'
-import Reveal from 'react-reveal/Reveal';
+import { Fade } from 'react-awesome-reveal';
 
 
 export default function Footer() {
     return (
         <>
-            <Reveal effect="fadeInUp" effectOut="fadeOutLeft">
+            <Fade down duration={5000}>
                 <div className="footer-section">
                     <div className="footer-content">
                         <div className="footer-sub-content">
@@ -36,7 +35,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-            </Reveal>
+            </Fade>
         </>
     )
 }
