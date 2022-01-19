@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-import Zoom from 'react-reveal/Zoom'
+import { Zoom } from 'react-awesome-reveal'
 
 
 export default function Main() {
@@ -10,7 +10,7 @@ export default function Main() {
                 <h1 className='text-center' id="about">Environmental toxicology graduate with a demonstrated history of working in the higher education research field.</h1>
                 <div className="card-section">
                     <h2 ><span>About Me</span></h2>
-                    <Zoom duration={3000}>
+                    <Zoom duration={2500} cascade>
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="card">

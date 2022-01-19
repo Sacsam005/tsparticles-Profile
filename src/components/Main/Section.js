@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section.css'
-import Fade from 'react-reveal/Fade'
+import { Fade, Slide } from 'react-awesome-reveal'
 
 export default function Section() {
     return (
@@ -13,7 +13,7 @@ export default function Section() {
                 <h2 ><span>Experiences</span></h2>
 
                 <div className="section">
-                    <Fade left duration={2500}>
+                    <Fade delay={1500}>
                         <div className="section-1">
                             <ul className="item-links" >
                                 <li className="item">
@@ -35,7 +35,7 @@ export default function Section() {
                         </div>
                     </Fade>
 
-                    <Fade right duration={2500}>
+                    <Slide right delay={1500} cascade>
                         <div className="section-2">
                             <img src={require('../img/s1.JPG')} alt="Pic" />
                             <img src={require('../img/s2.JPG')} alt="Pic" />
@@ -43,11 +43,11 @@ export default function Section() {
                             <img src={require('../img/s4.JPG')} alt="Pic" />
                             <img src={require('../img/s3.JPG')} alt="Pic" />
                         </div>
-                    </Fade>
+                    </Slide>
                 </div>
             </div>
 
-            <Fade top duration={3000}>
+            <Fade duration={3000} cascade>
                 <div className="section-4">
                     <h2><span>Affiliation Partners</span></h2>
                     <div className="logo-section">
