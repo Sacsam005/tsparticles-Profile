@@ -1,10 +1,14 @@
-import React from 'react'
-import './Section.css'
-import { Fade, Slide } from 'react-awesome-reveal'
+import React from 'react';
+import './Section.css';
+import { Fade, Slide } from 'react-awesome-reveal';
+import Info from './Info';
 
 export default function Section() {
     return (
         < >
+            <Fade duration={3000}>
+                <Info />
+            </Fade>
             <div className="main-section" >
                 <h6 className="text-center" id="experience">
                     Skilled in Environmental regulations, assessment and laboratory techniques.
@@ -35,7 +39,7 @@ export default function Section() {
                         </div>
                     </Fade>
 
-                    <Slide right delay={1500} cascade>
+                    <Slide right duration={1500} cascade>
                         <div className="section-2">
                             <img src={require('../img/s1.JPG')} alt="Pic" />
                             <img src={require('../img/s2.JPG')} alt="Pic" />

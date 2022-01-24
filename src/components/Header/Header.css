@@ -61,9 +61,9 @@ a.btn-main-offer:hover {
     font-size: 1.5rem;
   }
 
-  .main-info {
+  /* .main-info {
     margin-top: 4rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 1024px) {
