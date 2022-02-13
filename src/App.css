@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Quantico&family=Titillium+Web:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 * {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Quantico', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   overflow-x: hidden;
+  color: blue;
 }
 
 /* Particles Styling */

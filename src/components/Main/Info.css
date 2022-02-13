@@ -21,8 +21,8 @@ main {
   width: 380px;
 }
 
-span {
-  color: orange;
+.text-box span {
+  color: blue;
   font-weight: bold;
   background: transparent;
   text-decoration: none;

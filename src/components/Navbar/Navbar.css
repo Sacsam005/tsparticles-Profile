@@ -4,9 +4,16 @@
   z-index: 2;
 }
 
+.logo {
+  background-image: linear-gradient(90deg, green, blue);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 1px;
+  transition: background-size 300ms ease;
+}
+
 .logo:hover {
-  border-bottom: 1px solid green;
-  border-right: 1px solid green;
+  background-size: 100% 1px;
   cursor: pointer;
 }
 
@@ -17,11 +24,16 @@
 a.nav-link {
   font-size: 1.2rem;
   font-weight: bolder;
-  color: black;
+  color: blue;
+  background-image: linear-gradient(90deg, green, blue);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 1px;
+  transition: background-size 300ms ease;
 }
 
 a.nav-link:hover {
-  border-bottom: 1px solid green;
+  background-size: 100% 1px;
   cursor: pointer;
 }
 

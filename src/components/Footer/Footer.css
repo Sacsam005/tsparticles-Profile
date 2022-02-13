@@ -14,8 +14,13 @@
 .footer-sub-content h6,
 .footer-content h6,
 .footer-links a {
-  color: black;
+  color: blue;
   font-weight: 700;
+  background-image: linear-gradient(90deg, green, blue);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 1px;
+  transition: background-size 300ms ease;
 }
 
 .footer-item i {
@@ -34,9 +39,11 @@
   text-decoration: none;
 }
 
-.footer-sub-content h6:hover,
+.footer-sub-content h6:hover {
+  background-size: 50% 1px;
+}
 .footer-links a:hover {
-  border-bottom: 1px solid black;
+  background-size: 100% 1px;
 }
 
 .footer-content {
@@ -44,6 +51,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
+}
+
+.copyright_text h6 {
+  text-align: center;
 }
 
 @media (max-width: 680px) {
