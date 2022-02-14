@@ -10,14 +10,16 @@ export default function Section() {
                 <Info />
             </Fade>
             <div className="main-section" >
-                <h6 className="text-center" id="experience">
-                    Skilled in Environmental regulations, assessment and laboratory techniques.
-                </h6>
-
-                <h2 ><span>Experiences</span></h2>
-
+                <Fade duration={6000}>
+                    <h6 className="text-center" id="experience">
+                        Skilled in Environmental regulations, assessment and laboratory techniques.
+                    </h6>
+                </Fade>
+                <Fade duration={5000}>
+                    <h2 ><span>Experiences</span></h2>
+                </Fade>
                 <div className="section">
-                    <Fade delay={1500}>
+                    <Fade delay={1000}>
                         <div className="section-1">
                             <ul className="item-links" >
                                 <li className="item">
@@ -39,7 +41,7 @@ export default function Section() {
                         </div>
                     </Fade>
 
-                    <Slide right duration={1500} cascade>
+                    <Slide right duration={1500} >
                         <div className="section-2">
                             <img src={require('../img/s1.JPG')} alt="Pic" />
                             <img src={require('../img/s2.JPG')} alt="Pic" />
@@ -53,12 +55,17 @@ export default function Section() {
 
             <Fade duration={3000} cascade>
                 <div className="section-4">
-                    <h2><span>Affiliation Partners</span></h2>
-                    <div className="logo-section">
-                        <img src={require('../img/logo1.png')} alt="Logo" style={{ width: "22rem", height: "5rem" }} />
-                        <img src={require('../img/logo2.png')} alt="Logo" style={{ width: "8rem" }} />
-                        <img src={require('../img/logo3.jpg')} alt="Logo" style={{ width: "18rem" }} />
-                    </div>
+                    <Fade duration={6000}>
+                        <h2><span>Affiliation Partners</span></h2>
+                    </Fade>
+                    <Fade duration={5000}>
+                        <div className="logo-section">
+                            <img src={require('../img/logo1.png')} alt="Logo" style={{ width: "22rem", height: "5rem" }} />
+                            <img src={require('../img/logo2.png')} alt="Logo" style={{ width: "8rem" }} />
+                            <img src={require('../img/logo3.jpg')} alt="Logo" style={{ width: "18rem" }} />
+                        </div>
+                    </Fade>
+
                 </div>
             </Fade>
         </>

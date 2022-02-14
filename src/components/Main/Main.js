@@ -1,15 +1,20 @@
 import React from 'react'
 import './Main.css'
-import { Zoom } from 'react-awesome-reveal'
+import { Zoom, Fade } from 'react-awesome-reveal'
 
 
 export default function Main() {
     return (
         <>
             <div className="container">
-                <h1 className='text-center' id="about">Environmental toxicology graduate with a demonstrated history of working in the higher education research field.</h1>
+                <Fade duration={6000}>
+                    <h1 className='text-center' id="about">Environmental toxicology graduate with a demonstrated history of working in the higher education research field.</h1>
+                </Fade>
                 <div className="card-section">
-                    <h2 ><span>About Me</span></h2>
+                    <Fade duration={5000}>
+                        <h2 ><span>About Me</span></h2>
+                    </Fade>
+
                     <div className="row">
                         <Zoom duration={2500} cascade>
                             <div className="col-md-4">
