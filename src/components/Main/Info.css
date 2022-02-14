@@ -102,17 +102,17 @@ main {
   }
 
   .main-grid img:first-child {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   .main-grid img:last-child {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   .main-grid h3 {
     font-size: 1.5rem;
     text-align: left;
-    margin-top: -3rem;
+    margin-top: -2rem;
     z-index: 1;
   }
 }

@@ -10,8 +10,8 @@ export default function Main() {
                 <h1 className='text-center' id="about">Environmental toxicology graduate with a demonstrated history of working in the higher education research field.</h1>
                 <div className="card-section">
                     <h2 ><span>About Me</span></h2>
-                    <Zoom duration={2500} cascade>
-                        <div className="row">
+                    <div className="row">
+                        <Zoom duration={2500} cascade>
                             <div className="col-md-4">
                                 <div className="card">
                                     <img src={require('../img/img1.JPG')} className="card-img-top" alt="Profile" />
@@ -26,6 +26,8 @@ export default function Main() {
                                     </div>
                                 </div>
                             </div>
+                        </Zoom>
+                        <Zoom duration={2500} cascade>
                             <div className="col-md-4">
                                 <div className="card">
                                     <img src={require('../img/img3.JPG')} className="card-img-top" alt="Profile" />
@@ -41,6 +43,8 @@ export default function Main() {
                                     </div>
                                 </div>
                             </div>
+                        </Zoom>
+                        <Zoom duration={2500} cascade>
                             <div className="col-md-4">
                                 <div className="card">
                                     <img src={require('../img/s5.JPG')} className="card-img-top" alt="Profile" />
@@ -55,8 +59,8 @@ export default function Main() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Zoom>
+                        </Zoom>
+                    </div>
                 </div>
             </div>
         </>
